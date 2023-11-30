@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "ingore",
+	"version": "1.0",
+
+	"name": "Ing Ore",
+	"description": "Inspired by PhoenixSC's video https://youtu.be/_kuLXOknkZA",
+	"authors": [ "val_int1" ],
+
+	"license": "BSD-3-Clause",
+	"icon": "assets/ingore/icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "val_int1.ingore.init.IngOreInitCommon" ]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"fabric": "*",
+		"minecraft": "1.20.1",
+		"java": "17"
+	}
+}
